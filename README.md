@@ -8,11 +8,11 @@ The outline coordinates of polygons drawn around these areas to fit local models
 ## Data columns 
 * **Id_poly** -> The polygon ID number in the original FORWIND database 	
 * **StormName** -> The storm name - there are 3 unique storms
-* EventType -> This is windStorm for all 
-* Damage_deg -> The percentage of trees within the polygon which were deeemed to be damaged
-* geometry -> The polygons geometry, all multipolygons have been unpacked	
-* Area(Ha) -> The area of the polygon 
-* pixels -> The number of satellite imagery pixels within the polygon assuming a 20m resolution
+* **EventType** -> This is windStorm for all 
+* **Damage_deg** -> The percentage of trees within the polygon which were deeemed to be damaged
+* **geometry** -> The polygons geometry, all multipolygons have been unpacked	
+* **Area(Ha)** -> The area of the polygon 
+* **pixels** -> The number of satellite imagery pixels within the polygon assuming a 20m resolution
 
 ### Ground truth data source 
 This data is derived from the FORWIND dataset by Forzieri et al. (2019), it is available [here:]([https://figshare.com/articles/dataset/A_spatially-explicit_database_of_wind_disturbances_in_European_forests_over_the_period_2000-2018/9555008). It contains shape files of damaged forest for many European storms over the period 2000-2018. Storms were assessed using either aerial photointerpretation, field survey or satellite imagery. 
